@@ -1,5 +1,5 @@
 {% set name = "starlette-testclient" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/starlette_testclient-{{ version }}.tar.gz
-  sha256: 31c28c10abd240beb327ef1ee4dc395403c87da07d4665126b7d3c7b60444e04
+  sha256: 9e2c9ed5bdb8992647f657dc30bbeeb989b9273cef4b3fbbbf5ffde2d29a591a
 
 build:
   noarch: python
